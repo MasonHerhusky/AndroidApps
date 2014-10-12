@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/backyard"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello, World"
+            android:textColor="#000000"
+            android:gravity="center"
+            />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button01"
+            android:text="Press This Button"
+            android:textColor="#ff7aff3f"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+</LinearLayout>
+
